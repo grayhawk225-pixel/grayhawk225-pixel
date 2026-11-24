@@ -7,7 +7,9 @@
 - **Portfolio en ligne** : [grayhawk225-pixel.github.io/Mon_Portfolio](https://grayhawk225-pixel.github.io/Mon_Portfolio/)
 - **Localisation** : Abidjan, Côte d’Ivoire
 
-## Compétences & outils
+<img src="./assets/divider.svg" alt="" width="100%" />
+
+<img src="./assets/heading-skills.svg" alt="Compétences & outils" width="100%" />
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
@@ -19,3 +21,5 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+<img src="./assets/skills-bars.svg" alt="Niveaux déclarés : HTML/CSS, Git et GitHub, Linux et Systèmes, Python/Django/SQL, TypeScript/React/Flutter" width="100%" />

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 54" width="840" height="54" role="img" aria-label="Compétences et outils">
+  <defs>
+    <style>
+      .static-fallback { display: none; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion-only { display: none; }
+        .static-fallback { display: inline; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="52" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+
+  <!-- Repère d'état -->
+  <circle class="motion-only" cx="24" cy="27" r="4.5" fill="#E04724">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="static-fallback" cx="24" cy="27" r="4.5" fill="#E04724"/>
+
+  <!-- Titre lisible avec ou sans animation -->
+  <text x="42" y="32" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0.4">Compétences &amp; outils</text>
+  <text x="816" y="31" text-anchor="end" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.2">STACK · L2 TWIN</text>
+
+  <!-- Soulignement calibré animé en SMIL -->
+  <line class="motion-only" x1="42" y1="43" x2="260" y2="43" stroke="#60A5FA" stroke-width="2" stroke-dasharray="218" stroke-dashoffset="218">
+    <animate attributeName="stroke-dashoffset" values="218;0;0;218" keyTimes="0;0.35;0.85;1" dur="5s" repeatCount="indefinite"/>
+  </line>
+  <line class="static-fallback" x1="42" y1="43" x2="260" y2="43" stroke="#60A5FA" stroke-width="2"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 228" width="840" height="228" role="img" aria-label="Niveaux déclarés : HTML/CSS Avancé, Git et GitHub Avancé, Linux et Systèmes Avancé, Python et Django Intermédiaire, TypeScript React Flutter Dart Intermédiaire">
+  <defs>
+    <style>
+      .static-fallback { display: none; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion-only { display: none; }
+        .static-fallback { display: inline; }
+      }
+    </style>
+    <pattern id="bar-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#334155" stroke-width="0.6" opacity="0.28"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="226" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <rect x="1" y="1" width="838" height="226" rx="10" fill="url(#bar-grid)"/>
+
+  <!-- En-tête de la planche -->
+  <text x="24" y="29" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.4">NIVEAUX DÉCLARÉS // REPÈRES TECHNIQUES</text>
+  <text x="816" y="29" text-anchor="end" fill="#60A5FA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">AVANCÉ · INTERMÉDIAIRE</text>
+  <line x1="24" y1="40" x2="816" y2="40" stroke="#334155" stroke-width="1"/>
+
+  <!-- Lignes de compétences (piste x=330, largeur max 400px) -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
+    <!-- 1. HTML / CSS — Avancé (80% = 320px) -->
+    <text x="24" y="72" fill="#F8FAFC" font-weight="600">HTML / CSS</text>
+    <rect x="330" y="61" width="400" height="12" rx="3" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
+    <rect class="motion-only" x="330" y="61" width="320" height="12" rx="3" fill="#E04724">
+      <animate attributeName="width" values="0;320;320" keyTimes="0;0.3;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect class="static-fallback" x="330" y="61" width="320" height="12" rx="3" fill="#E04724"/>
+    <text x="816" y="72" text-anchor="end" fill="#CBD5E1" font-size="11">Avancé</text>
+
+    <!-- 2. Git & GitHub — Avancé (80% = 320px) -->
+    <text x="24" y="106" fill="#F8FAFC" font-weight="600">Git &amp; GitHub</text>
+    <rect x="330" y="95" width="400" height="12" rx="3" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
+    <rect class="motion-only" x="330" y="95" width="320" height="12" rx="3" fill="#E04724">
+      <animate attributeName="width" values="0;320;320" keyTimes="0;0.36;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect class="static-fallback" x="330" y="95" width="320" height="12" rx="3" fill="#E04724"/>
+    <text x="816" y="106" text-anchor="end" fill="#CBD5E1" font-size="11">Avancé</text>
+
+    <!-- 3. Linux (Ubuntu, Kali) & Systèmes — Avancé (80% = 320px) -->
+    <text x="24" y="140" fill="#F8FAFC" font-weight="600">Linux (Ubuntu, Kali) &amp; Systèmes</text>
+    <rect x="330" y="129" width="400" height="12" rx="3" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
+    <rect class="motion-only" x="330" y="129" width="320" height="12" rx="3" fill="#E04724">
+      <animate attributeName="width" values="0;320;320" keyTimes="0;0.42;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect class="static-fallback" x="330" y="129" width="320" height="12" rx="3" fill="#E04724"/>
+    <text x="816" y="140" text-anchor="end" fill="#CBD5E1" font-size="11">Avancé</text>
+
+    <!-- 4. Python · Django · SQL — Intermédiaire (55% = 220px) -->
+    <text x="24" y="174" fill="#F8FAFC" font-weight="600">Python · Django · SQL</text>
+    <rect x="330" y="163" width="400" height="12" rx="3" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
+    <rect class="motion-only" x="330" y="163" width="220" height="12" rx="3" fill="#60A5FA">
+      <animate attributeName="width" values="0;220;220" keyTimes="0;0.48;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect class="static-fallback" x="330" y="163" width="220" height="12" rx="3" fill="#60A5FA"/>
+    <text x="816" y="174" text-anchor="end" fill="#CBD5E1" font-size="11">Intermédiaire</text>
+
+    <!-- 5. TypeScript · React · Flutter / Dart — Intermédiaire (55% = 220px) -->
+    <text x="24" y="208" fill="#F8FAFC" font-weight="600">TypeScript · React · Flutter</text>
+    <rect x="330" y="197" width="400" height="12" rx="3" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
+    <rect class="motion-only" x="330" y="197" width="220" height="12" rx="3" fill="#60A5FA">
+      <animate attributeName="width" values="0;220;220" keyTimes="0;0.54;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect class="static-fallback" x="330" y="197" width="220" height="12" rx="3" fill="#60A5FA"/>
+    <text x="816" y="208" text-anchor="end" fill="#CBD5E1" font-size="11">Intermédiaire</text>
+  </g>
+</svg>
