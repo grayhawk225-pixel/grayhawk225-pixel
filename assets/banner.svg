@@ -1,8 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Moïse Onikoyamou — grayhawk225-pixel">
   <defs>
+    <style>
+      .static-fallback { display: none; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion-only { display: none; }
+        .static-fallback { display: inline; }
+      }
+    </style>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.8" opacity="0.35"/>
     </pattern>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#E04724" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#E04724" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <rect width="1200" height="260" rx="12" fill="#0F172A"/>
@@ -11,6 +24,12 @@
   <!-- Repères techniques sobres -->
   <rect x="28" y="24" width="1144" height="212" rx="6" fill="none" stroke="#334155" stroke-width="1"/>
   <line x1="28" y1="64" x2="1172" y2="64" stroke="#334155" stroke-width="1"/>
+
+  <!-- Animation 1 : léger faisceau dégradé glissant sur la règle supérieure -->
+  <rect class="motion-only" x="28" y="62.5" width="260" height="3" rx="1.5" fill="url(#beam)">
+    <animate attributeName="x" values="28;912;28" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="static-fallback" x="28" y="62.5" width="260" height="3" rx="1.5" fill="url(#beam)"/>
 
   <circle cx="52" cy="44" r="5" fill="#E04724"/>
   <text x="68" y="48" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" letter-spacing="1.6">GRAYHAWK // 225-PIXEL</text>
@@ -23,7 +42,11 @@
 
   <!-- Réticule optique sobre à droite -->
   <g transform="translate(1055, 148)" stroke="#60A5FA" fill="none">
-    <circle cx="0" cy="0" r="52" stroke-width="1.2" stroke-dasharray="6 5" opacity="0.7"/>
+    <!-- Animation 2 : rotation lente de l'anneau pointillé -->
+    <circle class="motion-only" cx="0" cy="0" r="52" stroke-width="1.4" stroke-dasharray="10 7" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="static-fallback" cx="0" cy="0" r="52" stroke-width="1.4" stroke-dasharray="10 7" opacity="0.85"/>
     <circle cx="0" cy="0" r="32" stroke-width="1.4" opacity="0.9"/>
     <line x1="-64" y1="0" x2="-38" y2="0" stroke-width="1.2"/>
     <line x1="38" y1="0" x2="64" y2="0" stroke-width="1.2"/>
