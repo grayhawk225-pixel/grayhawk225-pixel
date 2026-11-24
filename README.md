@@ -19,15 +19,3 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-## Projets
-
-| Dépôt | Stack | Description |
-| --- | --- | --- |
-| [TaskLab-Django-Groupe1](https://github.com/grayhawk225-pixel/TaskLab-Django-Groupe1) | Python · Django | TP fil rouge Génie Logiciel TWIN2 — application TaskLab développée en groupe (Groupe 1). |
-| [TP_Groupe_GitHub_Deploiement_Django](https://github.com/grayhawk225-pixel/TP_Groupe_GitHub_Deploiement_Django) | Python · Django | Fork collaboratif consacré au déploiement Django sur Vercel ([démo](https://tp-groupe-git-hub-deploiement-djang.vercel.app)). |
-| [PixR](https://github.com/grayhawk225-pixel/PixR) | Kotlin · Android | Application Android de super-résolution photo 100 % locale, sans IA générative. |
-| [TikTask](https://github.com/grayhawk225-pixel/TikTask) | TypeScript · React | Todo List avec alarmes sonores et deadlines utilisant hooks, context et reducer ([démo](https://tik-task.vercel.app)). |
-| [Ivoire-Bio-AXE](https://github.com/grayhawk225-pixel/Ivoire-Bio-AXE) | Dart · Flutter | Plateforme d’économie circulaire reliant producteurs, collecteurs et transformateurs en Côte d’Ivoire. |
-| [Mon_Portfolio](https://github.com/grayhawk225-pixel/Mon_Portfolio) | HTML · CSS · JS | Portfolio personnel interactif déployé sur GitHub Pages ([site](https://grayhawk225-pixel.github.io/Mon_Portfolio/)). |
-| [atelier-web-skill](https://github.com/grayhawk225-pixel/atelier-web-skill) | Web · Skill | Skill de conception web tactile et interactive basée sur les Web APIs natives et `oklch()` ([vitrine](https://grayhawk225-pixel.github.io/atelier-web-skill/)). |
